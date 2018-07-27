@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  showDisplay = false;
+  displayStatus = '';
+  buttonClicks = [];
+
+  onToggle() {
+    this.showDisplay = !this.showDisplay;
+    this.displayStatus = 'Can display the password now.';
+    this.buttonClicks.push(this.buttonClicks.length + 1);
+  }
 }
