@@ -1,4 +1,6 @@
-# MyAngular6App
+# Angular Recipe Application
+
+A practice application to test out angular and single-page applications. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
 

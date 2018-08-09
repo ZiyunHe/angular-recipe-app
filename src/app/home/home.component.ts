@@ -13,9 +13,9 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  //programmatically routing to another page by triggering it with a (click)
+  // programmatically routing to another page by triggering it with a (click)
   onLoadServers() {
-    this.router.navigate(['/servers']); //'/servers' = absolute path
+    this.router.navigate(['/servers']); // '/servers' = absolute path
   }
 
 }
